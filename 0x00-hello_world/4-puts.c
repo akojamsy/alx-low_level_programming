@@ -1,26 +1,13 @@
 #!/bin/bash
 #include <stdio.h>
-
 /**
- * main - Prints the alphabetic in lower and upper case
+ * main - Entry Point
  *
- * Return: Always (Success)
+ *Return: Always 0 (Success)
  **/
+
 int main(void)
 {
-		char c;
-
-		for (c = 'a'; c <= 'z'; c++)
-		{
-			putchar(c);
-		}
-
-		for (c = 'A'; c <= 'Z'; c++)
-		{
-			putchar(c);
-		}
-
-		putchar('\n');
-
-		return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
